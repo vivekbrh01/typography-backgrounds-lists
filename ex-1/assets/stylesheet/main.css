@@ -1,0 +1,144 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My CSS */
+/* General */
+a {
+	text-decoration: none;
+}
+body {
+	line-height: 1.6;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+	background-color: #F96114;
+}
+.flex {
+	display: flex;
+	justify-content: center;
+}
+.padding-element {
+	padding: 20px 0;
+}
+
+
+.nav-links {
+	padding: 32px 24px;
+}
+.nav-links a {
+	color: #ffffff;
+	margin-right: 28px;
+	font-size: 24px;
+}
+.main-background {
+	background-color: #D4CEA7;
+}
+.blue-background {
+	background-color: #005979;
+	padding: 20px 20px;
+	margin: 30px 20px;
+	width: 28%;
+}
+.ordered-list{
+	list-style: decimal;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.ordered-list li {
+	padding-bottom: 20px;
+	color: #D4CEA7;
+}
+.unordered-list {
+	list-style: disc;
+	padding-left: 40px;
+}
+.unordered-list li {
+	padding-bottom: 20px;
+	color: #D4CEA7;
+}
+.last-list {
+	padding-left: 40px;
+}
+
+.fas {
+	display: inline-block;
+}
+
+.last-list h3 {
+	display: inline-block;
+	padding-left: 20px;
+}
+.correct li {
+	display: block;
+	color: #ffffff;
+	margin-left: 28px;
+}
+
+.last-list li {
+	padding-left: 10px;
+	color: #D4CEA7;
+}
+.heading {
+	font-size: 32px;
+	font-weight: 600;
+	padding: 32px 0;
+}
+.text {
+	font-size: 24px;
+	font-weight: 300;
+	padding-left: 40px;
+	padding-bottom: 32px;
+}
+.footer {
+	background-color: #242C22;
+	padding: 40px 0;
+}
